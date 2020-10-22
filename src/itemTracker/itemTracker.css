@@ -279,3 +279,49 @@
     height: 150%;
     object-fit: contain;
 }
+
+/*
+    Tablets
+*/
+
+#emerald-Tablet{
+    left: 68.8%;
+    width: auto;
+    top: 34.15%;
+    height: 66px;
+    position: absolute;
+}
+
+#ruby-Tablet{
+    left: 67%;
+    width: auto;
+    top: 28.65%;
+    height: 52px;
+    position: absolute;
+}
+
+#amber-Tablet{
+    left: 64.5%;
+    width: auto;
+    top: 28.65%;
+    height: 107px;
+    position: absolute;
+}
+
+#emerald-Tablet > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#ruby-Tablet > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#amber-Tablet > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

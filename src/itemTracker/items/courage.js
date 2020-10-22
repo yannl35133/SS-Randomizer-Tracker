@@ -1,5 +1,5 @@
 import React from 'react';
-import noCourage from '../../assets/songs/No_Song.png'
+import noCourage from '../../assets/songs/No_Farore.png'
 import courage from '../../assets/songs/Farores_Courage.png'
 
 export default class Courage extends React.Component {

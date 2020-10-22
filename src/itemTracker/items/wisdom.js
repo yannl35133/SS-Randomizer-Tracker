@@ -1,5 +1,5 @@
 import React from 'react';
-import noWidsom from '../../assets/songs/No_Song.png'
+import noWidsom from '../../assets/songs/No_Nayru.png'
 import wisdom from '../../assets/songs/Nayrus_Wisdom.png'
 
 export default class Wisdom extends React.Component {

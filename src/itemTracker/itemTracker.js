@@ -20,6 +20,9 @@ import Scale from "./items/scale";
 import Earrings from "./items/earrings";
 import Mitts from "./items/mitts";
 import Stone from "./items/stone";
+import Emerald from "./items/emeraldTablet";
+import Ruby from "./items/rubyTablet";
+import Amber from "./items/amberTablet";
 
 export default class ItemTracker extends React.Component {
     MAX_BEETLE;//constant max index for items
@@ -72,6 +75,9 @@ export default class ItemTracker extends React.Component {
                 soth: 0,
                 sailcloth: 0,
                 stone: 0,
+                emeraldTablet: 0,
+                rubyTablet: 0,
+                amberTablet:0,
             },
             width: 0,
             height: 0
@@ -116,6 +122,12 @@ export default class ItemTracker extends React.Component {
                     <Earrings current={this.state.items.earrings} onChange={this.handleUpdate}/>
                     <Mitts current={this.state.items.mitts} onChange={this.handleUpdate}/>
                     <Stone current={this.state.items.stone} onChange={this.handleUpdate}/>
+                </div>
+
+                <div id={"tablets"}>
+                    <Emerald current={this.state.items.emeraldTablet} onChange={this.handleUpdate}/>
+                    <Ruby current={this.state.items.rubyTablet} onChange={this.handleUpdate}/>
+                    <Amber current={this.state.items.amberTablet} onChange={this.handleUpdate}/>
                 </div>
             </div>
     );}
@@ -221,7 +233,24 @@ export default class ItemTracker extends React.Component {
                     items: this.setItemState("stone", state.items.stone < this.MAX_NON_B ? state.items.stone++ : state.items.stone = 0)
                 }));
                 return;
-            
+
+            // Tablets
+            case "emeraldTablet":
+                this.setState((state, props) => ({
+                    items: this.setItemState("emeraldTablet", state.items.emeraldTablet < this.MAX_NON_B ? state.items.emeraldTablet++ : state.items.emeraldTablet = 0)
+                }));
+                return;
+            case "rubyTablet":
+                this.setState((state, props) => ({
+                    items: this.setItemState("rubyTablet", state.items.rubyTablet < this.MAX_NON_B ? state.items.rubyTablet++ : state.items.rubyTablet = 0)
+                }));
+                return;
+            case "amberTablet":
+                this.setState((state, props) => ({
+                    items: this.setItemState("amberTablet", state.items.amberTablet < this.MAX_NON_B ? state.items.amberTablet++ : state.items.amberTablet = 0)
+                }));
+                return;
+
             default:
                 return;
         }

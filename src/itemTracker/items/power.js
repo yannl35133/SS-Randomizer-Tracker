@@ -1,5 +1,5 @@
 import React from 'react';
-import noPower from '../../assets/songs/No_Song.png'
+import noPower from '../../assets/songs/No_Din.png'
 import power from '../../assets/songs/Dins_Power.png'
 
 export default class Power extends React.Component {

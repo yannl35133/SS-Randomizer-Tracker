@@ -1,5 +1,5 @@
 import React from 'react';
-import noBallad from '../../assets/songs/No_Song.png'
+import noBallad from '../../assets/songs/No_BotG.png'
 import ballad from '../../assets/songs/Ballad_of_the_Goddess.png'
 
 export default class Ballad extends React.Component {
