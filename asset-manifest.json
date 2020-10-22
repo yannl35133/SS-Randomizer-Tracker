@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SS-Randomizer-Tracker/static/css/main.523f09c5.chunk.css",
+    "main.js": "/SS-Randomizer-Tracker/static/js/main.5d510fee.chunk.js",
+    "main.js.map": "/SS-Randomizer-Tracker/static/js/main.5d510fee.chunk.js.map",
+    "runtime-main.js": "/SS-Randomizer-Tracker/static/js/runtime-main.ec47c787.js",
+    "runtime-main.js.map": "/SS-Randomizer-Tracker/static/js/runtime-main.ec47c787.js.map",
+    "static/js/2.a33a10e4.chunk.js": "/SS-Randomizer-Tracker/static/js/2.a33a10e4.chunk.js",
+    "static/js/2.a33a10e4.chunk.js.map": "/SS-Randomizer-Tracker/static/js/2.a33a10e4.chunk.js.map",
+    "index.html": "/SS-Randomizer-Tracker/index.html",
+    "precache-manifest.9f6f6b13b1704e6f96db6e774a9dfbc6.js": "/SS-Randomizer-Tracker/precache-manifest.9f6f6b13b1704e6f96db6e774a9dfbc6.js",
+    "service-worker.js": "/SS-Randomizer-Tracker/service-worker.js",
+    "static/css/main.523f09c5.chunk.css.map": "/SS-Randomizer-Tracker/static/css/main.523f09c5.chunk.css.map",
+    "static/js/2.a33a10e4.chunk.js.LICENSE.txt": "/SS-Randomizer-Tracker/static/js/2.a33a10e4.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/SS-Randomizer-Tracker/static/media/logo.ee7cd8ed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec47c787.js",
+    "static/js/2.a33a10e4.chunk.js",
+    "static/css/main.523f09c5.chunk.css",
+    "static/js/main.5d510fee.chunk.js"
+  ]
+}
