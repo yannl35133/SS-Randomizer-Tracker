@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SS-Randomizer-Tracker/static/css/main.2b1d557d.chunk.css",
-    "main.js": "/SS-Randomizer-Tracker/static/js/main.9a27375e.chunk.js",
-    "main.js.map": "/SS-Randomizer-Tracker/static/js/main.9a27375e.chunk.js.map",
+    "main.js": "/SS-Randomizer-Tracker/static/js/main.8cf3fbef.chunk.js",
+    "main.js.map": "/SS-Randomizer-Tracker/static/js/main.8cf3fbef.chunk.js.map",
     "runtime-main.js": "/SS-Randomizer-Tracker/static/js/runtime-main.ec47c787.js",
     "runtime-main.js.map": "/SS-Randomizer-Tracker/static/js/runtime-main.ec47c787.js.map",
     "static/js/2.008c5fd5.chunk.js": "/SS-Randomizer-Tracker/static/js/2.008c5fd5.chunk.js",
     "static/js/2.008c5fd5.chunk.js.map": "/SS-Randomizer-Tracker/static/js/2.008c5fd5.chunk.js.map",
     "index.html": "/SS-Randomizer-Tracker/index.html",
-    "precache-manifest.2afe731089a1ec8d878e60fead77ae68.js": "/SS-Randomizer-Tracker/precache-manifest.2afe731089a1ec8d878e60fead77ae68.js",
+    "precache-manifest.dda361901a30117f674de53b32810d62.js": "/SS-Randomizer-Tracker/precache-manifest.dda361901a30117f674de53b32810d62.js",
     "service-worker.js": "/SS-Randomizer-Tracker/service-worker.js",
     "static/css/main.2b1d557d.chunk.css.map": "/SS-Randomizer-Tracker/static/css/main.2b1d557d.chunk.css.map",
     "static/js/2.008c5fd5.chunk.js.LICENSE.txt": "/SS-Randomizer-Tracker/static/js/2.008c5fd5.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.ec47c787.js",
     "static/js/2.008c5fd5.chunk.js",
     "static/css/main.2b1d557d.chunk.css",
-    "static/js/main.9a27375e.chunk.js"
+    "static/js/main.8cf3fbef.chunk.js"
   ]
 }
