@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SS-Randomizer-Tracker/precache-manifest.39abb9b7456c8886880dcece9325d2e4.js"
+  "/SS-Randomizer-Tracker/precache-manifest.e6874f5fe05dcf0dd6a1c9eb86917f14.js"
 );
 
 self.addEventListener('message', (event) => {
