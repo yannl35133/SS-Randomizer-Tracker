@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/SS-Randomizer-Tracker/static/css/main.72bc5ced.chunk.css",
-    "main.js": "/SS-Randomizer-Tracker/static/js/main.c25e2677.chunk.js",
-    "main.js.map": "/SS-Randomizer-Tracker/static/js/main.c25e2677.chunk.js.map",
+    "main.css": "/SS-Randomizer-Tracker/static/css/main.2edc2307.chunk.css",
+    "main.js": "/SS-Randomizer-Tracker/static/js/main.f5e5d1ef.chunk.js",
+    "main.js.map": "/SS-Randomizer-Tracker/static/js/main.f5e5d1ef.chunk.js.map",
     "runtime-main.js": "/SS-Randomizer-Tracker/static/js/runtime-main.ec47c787.js",
     "runtime-main.js.map": "/SS-Randomizer-Tracker/static/js/runtime-main.ec47c787.js.map",
     "static/css/2.2a86faee.chunk.css": "/SS-Randomizer-Tracker/static/css/2.2a86faee.chunk.css",
-    "static/js/2.b3ae3b36.chunk.js": "/SS-Randomizer-Tracker/static/js/2.b3ae3b36.chunk.js",
-    "static/js/2.b3ae3b36.chunk.js.map": "/SS-Randomizer-Tracker/static/js/2.b3ae3b36.chunk.js.map",
+    "static/js/2.743a65b9.chunk.js": "/SS-Randomizer-Tracker/static/js/2.743a65b9.chunk.js",
+    "static/js/2.743a65b9.chunk.js.map": "/SS-Randomizer-Tracker/static/js/2.743a65b9.chunk.js.map",
     "index.html": "/SS-Randomizer-Tracker/index.html",
-    "precache-manifest.01ddc937ecc5e8d427fd0ab827e86cb9.js": "/SS-Randomizer-Tracker/precache-manifest.01ddc937ecc5e8d427fd0ab827e86cb9.js",
+    "precache-manifest.3a53e963e203e7b7f1dd4b5f4895e1dc.js": "/SS-Randomizer-Tracker/precache-manifest.3a53e963e203e7b7f1dd4b5f4895e1dc.js",
     "service-worker.js": "/SS-Randomizer-Tracker/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/SS-Randomizer-Tracker/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.72bc5ced.chunk.css.map": "/SS-Randomizer-Tracker/static/css/main.72bc5ced.chunk.css.map",
-    "static/js/2.b3ae3b36.chunk.js.LICENSE.txt": "/SS-Randomizer-Tracker/static/js/2.b3ae3b36.chunk.js.LICENSE.txt",
+    "static/css/main.2edc2307.chunk.css.map": "/SS-Randomizer-Tracker/static/css/main.2edc2307.chunk.css.map",
+    "static/js/2.743a65b9.chunk.js.LICENSE.txt": "/SS-Randomizer-Tracker/static/js/2.743a65b9.chunk.js.LICENSE.txt",
     "static/media/Farores_Flame.png": "/SS-Randomizer-Tracker/static/media/Farores_Flame.29c2831c.png",
     "static/media/Nayrus_Flame.png": "/SS-Randomizer-Tracker/static/media/Nayrus_Flame.4558678b.png",
     "static/media/SOTH4.png": "/SS-Randomizer-Tracker/static/media/SOTH4.ebce2f6b.png",
@@ -21,14 +21,21 @@
     "static/media/Sword_Block.png": "/SS-Randomizer-Tracker/static/media/Sword_Block.9be41f46.png",
     "static/media/amber_tablet.png": "/SS-Randomizer-Tracker/static/media/amber_tablet.b443ac5f.png",
     "static/media/b wheel.png": "/SS-Randomizer-Tracker/static/media/b wheel.5147a089.png",
+    "static/media/bottle.png": "/SS-Randomizer-Tracker/static/media/bottle.e8ef2835.png",
+    "static/media/crystal.png": "/SS-Randomizer-Tracker/static/media/crystal.885e8cb5.png",
     "static/media/emerald_tablet.png": "/SS-Randomizer-Tracker/static/media/emerald_tablet.09ea55e4.png",
-    "static/media/ruby_tablet.png": "/SS-Randomizer-Tracker/static/media/ruby_tablet.9752c5a0.png"
+    "static/media/no_pouch.png": "/SS-Randomizer-Tracker/static/media/no_pouch.233b34df.png",
+    "static/media/no_sea_chart.png": "/SS-Randomizer-Tracker/static/media/no_sea_chart.029da4d1.png",
+    "static/media/pouch.png": "/SS-Randomizer-Tracker/static/media/pouch.94cc513a.png",
+    "static/media/quest_items_block.png": "/SS-Randomizer-Tracker/static/media/quest_items_block.3c49a760.png",
+    "static/media/ruby_tablet.png": "/SS-Randomizer-Tracker/static/media/ruby_tablet.9752c5a0.png",
+    "static/media/sea_chart.png": "/SS-Randomizer-Tracker/static/media/sea_chart.1bb569f2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ec47c787.js",
     "static/css/2.2a86faee.chunk.css",
-    "static/js/2.b3ae3b36.chunk.js",
-    "static/css/main.72bc5ced.chunk.css",
-    "static/js/main.c25e2677.chunk.js"
+    "static/js/2.743a65b9.chunk.js",
+    "static/css/main.2edc2307.chunk.css",
+    "static/js/main.f5e5d1ef.chunk.js"
   ]
 }
