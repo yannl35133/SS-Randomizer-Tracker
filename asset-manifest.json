@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SS-Randomizer-Tracker/static/css/main.02910824.chunk.css",
-    "main.js": "/SS-Randomizer-Tracker/static/js/main.8d8d9efe.chunk.js",
-    "main.js.map": "/SS-Randomizer-Tracker/static/js/main.8d8d9efe.chunk.js.map",
+    "main.js": "/SS-Randomizer-Tracker/static/js/main.a1de0fa7.chunk.js",
+    "main.js.map": "/SS-Randomizer-Tracker/static/js/main.a1de0fa7.chunk.js.map",
     "runtime-main.js": "/SS-Randomizer-Tracker/static/js/runtime-main.ec47c787.js",
     "runtime-main.js.map": "/SS-Randomizer-Tracker/static/js/runtime-main.ec47c787.js.map",
     "static/css/2.2a86faee.chunk.css": "/SS-Randomizer-Tracker/static/css/2.2a86faee.chunk.css",
     "static/js/2.c90480b3.chunk.js": "/SS-Randomizer-Tracker/static/js/2.c90480b3.chunk.js",
     "static/js/2.c90480b3.chunk.js.map": "/SS-Randomizer-Tracker/static/js/2.c90480b3.chunk.js.map",
     "index.html": "/SS-Randomizer-Tracker/index.html",
-    "precache-manifest.7cb5567b8b497d2c5e768f244982b655.js": "/SS-Randomizer-Tracker/precache-manifest.7cb5567b8b497d2c5e768f244982b655.js",
+    "precache-manifest.fde24d30d57c7aad0a60ba0982f1d45e.js": "/SS-Randomizer-Tracker/precache-manifest.fde24d30d57c7aad0a60ba0982f1d45e.js",
     "service-worker.js": "/SS-Randomizer-Tracker/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/SS-Randomizer-Tracker/static/css/2.2a86faee.chunk.css.map",
     "static/css/main.02910824.chunk.css.map": "/SS-Randomizer-Tracker/static/css/main.02910824.chunk.css.map",
@@ -36,6 +36,6 @@
     "static/css/2.2a86faee.chunk.css",
     "static/js/2.c90480b3.chunk.js",
     "static/css/main.02910824.chunk.css",
-    "static/js/main.8d8d9efe.chunk.js"
+    "static/js/main.a1de0fa7.chunk.js"
   ]
 }
