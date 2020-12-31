@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/SS-Randomizer-Tracker/static/css/main.02910824.chunk.css",
-    "main.js": "/SS-Randomizer-Tracker/static/js/main.a1de0fa7.chunk.js",
-    "main.js.map": "/SS-Randomizer-Tracker/static/js/main.a1de0fa7.chunk.js.map",
+    "main.css": "/SS-Randomizer-Tracker/static/css/main.c4175908.chunk.css",
+    "main.js": "/SS-Randomizer-Tracker/static/js/main.15317af8.chunk.js",
+    "main.js.map": "/SS-Randomizer-Tracker/static/js/main.15317af8.chunk.js.map",
     "runtime-main.js": "/SS-Randomizer-Tracker/static/js/runtime-main.ec47c787.js",
     "runtime-main.js.map": "/SS-Randomizer-Tracker/static/js/runtime-main.ec47c787.js.map",
     "static/css/2.2a86faee.chunk.css": "/SS-Randomizer-Tracker/static/css/2.2a86faee.chunk.css",
-    "static/js/2.c90480b3.chunk.js": "/SS-Randomizer-Tracker/static/js/2.c90480b3.chunk.js",
-    "static/js/2.c90480b3.chunk.js.map": "/SS-Randomizer-Tracker/static/js/2.c90480b3.chunk.js.map",
+    "static/js/2.fb9b265a.chunk.js": "/SS-Randomizer-Tracker/static/js/2.fb9b265a.chunk.js",
+    "static/js/2.fb9b265a.chunk.js.map": "/SS-Randomizer-Tracker/static/js/2.fb9b265a.chunk.js.map",
     "index.html": "/SS-Randomizer-Tracker/index.html",
-    "precache-manifest.fde24d30d57c7aad0a60ba0982f1d45e.js": "/SS-Randomizer-Tracker/precache-manifest.fde24d30d57c7aad0a60ba0982f1d45e.js",
+    "precache-manifest.b165b2836dd47e485d8636f179ba3df4.js": "/SS-Randomizer-Tracker/precache-manifest.b165b2836dd47e485d8636f179ba3df4.js",
     "service-worker.js": "/SS-Randomizer-Tracker/service-worker.js",
     "static/css/2.2a86faee.chunk.css.map": "/SS-Randomizer-Tracker/static/css/2.2a86faee.chunk.css.map",
-    "static/css/main.02910824.chunk.css.map": "/SS-Randomizer-Tracker/static/css/main.02910824.chunk.css.map",
-    "static/js/2.c90480b3.chunk.js.LICENSE.txt": "/SS-Randomizer-Tracker/static/js/2.c90480b3.chunk.js.LICENSE.txt",
+    "static/css/main.c4175908.chunk.css.map": "/SS-Randomizer-Tracker/static/css/main.c4175908.chunk.css.map",
+    "static/js/2.fb9b265a.chunk.js.LICENSE.txt": "/SS-Randomizer-Tracker/static/js/2.fb9b265a.chunk.js.LICENSE.txt",
     "static/media/Farores_Flame.png": "/SS-Randomizer-Tracker/static/media/Farores_Flame.29c2831c.png",
+    "static/media/index.css": "/SS-Randomizer-Tracker/static/media/HyliaSerifBeta-Regular.a9519052.otf",
     "static/media/Nayrus_Flame.png": "/SS-Randomizer-Tracker/static/media/Nayrus_Flame.4558678b.png",
     "static/media/SOTH4.png": "/SS-Randomizer-Tracker/static/media/SOTH4.ebce2f6b.png",
     "static/media/Song_Block.png": "/SS-Randomizer-Tracker/static/media/Song_Block.63b0510e.png",
@@ -34,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.ec47c787.js",
     "static/css/2.2a86faee.chunk.css",
-    "static/js/2.c90480b3.chunk.js",
-    "static/css/main.02910824.chunk.css",
-    "static/js/main.a1de0fa7.chunk.js"
+    "static/js/2.fb9b265a.chunk.js",
+    "static/css/main.c4175908.chunk.css",
+    "static/js/main.15317af8.chunk.js"
   ]
 }
