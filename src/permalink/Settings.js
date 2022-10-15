@@ -5,10 +5,16 @@ import PackedBitsReader from './PackedBitsReader';
 import LogicLoader from '../logic/LogicLoader';
 
 class Settings {
-    async init() {
+    async init(commit) {
+        this.commit = commit;
         this.options = {};
         this.allOptions = {};
-        await this.loadSettingsFromRepo();
+        await this.loadSettingsFromRepo(this.commit);
+    }
+
+    async setCommit(commit) {
+        this.commit = commit;
+        await this.loadSettingsFromRepo(commit);
     }
 
     loadFrom(settings) {
@@ -114,13 +120,16 @@ class Settings {
         return _.camelCase(option);
     }
 
-    async loadSettingsFromRepo() {
-        const response = await fetch('https://raw.githubusercontent.com/ssrando/ssrando/master/options.yaml');
+    async loadSettingsFromRepo(commit) {
+        const response = await fetch(`https://raw.githubusercontent.com/ssrando/ssrando/${commit}/options.yaml`);
+        if (!response.ok) {
+            throw Error(response.statusText);
+        }
         const text = await response.text();
         this.allOptions = await yaml.load(text);
         // correctly load the choices for excluded locations
         const excludedLocsIndex = this.allOptions.findIndex((x) => (x.name === 'Excluded Locations'));
-        const checks = await LogicLoader.loadLogicFile('checks.yaml');
+        const checks = await LogicLoader.loadLogicFile(commit, 'checks.yaml');
         this.allOptions[excludedLocsIndex].choices = [];
         _.forEach(checks, (data, location) => {
             this.allOptions[excludedLocsIndex].choices.push(location);

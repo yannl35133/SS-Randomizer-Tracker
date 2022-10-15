@@ -215,8 +215,9 @@ export default class Options extends React.Component {
         this.changeSkywardStrike = this.changeBinaryOption.bind(this, 'Upgraded Skyward Strike');
         this.changeStartPouch = this.changeBinaryOption.bind(this, 'Start with Adventure Pouch');
         this.permalinkChanged = this.permalinkChanged.bind(this);
+        this.randoversionChanged = this.randoversionChanged.bind(this);
 
-        this.state.settings.init().then(() => {
+        this.state.settings.init('master').then(() => {
             this.state.settings.loadDefaults();
             this.setState({ ready: true });
         });
@@ -322,6 +323,13 @@ export default class Options extends React.Component {
         this.forceUpdate();
     }
 
+    randoversionChanged(e) {
+        this.state.settings.setCommit(e.target.value)
+            .finally(() => { this.forceUpdate(); })
+            .catch();
+        this.forceUpdate();
+    }
+
     render() {
         if (!this.state.ready) {
             return (
@@ -351,6 +359,10 @@ export default class Options extends React.Component {
                 }
                 >
                     <div className="permalinkContainer">
+                        <label htmlFor="randoversion" className="permalinkLabel">
+                            Rando version:
+                            <input id="randoversion" className="permalinkInput" placeholder="Rando version" value={this.state.settings.commit} onChange={this.randoversionChanged} />
+                        </label>
                         <label htmlFor="permalink" className="permalinkLabel">
                             Settings String:
                             <input id="permalink" className="permalinkInput" placeholder="Permalink" value={this.state.settings.generatePermalink()} onChange={this.permalinkChanged} />
@@ -588,7 +600,7 @@ export default class Options extends React.Component {
                             </Col>
                         </Row>
                     </FormGroup>
-                    <Link to={{ pathname: '/tracker', search: `?options=${encodeURIComponent(this.state.settings.generatePermalink())}` }}>
+                    <Link to={{ pathname: '/tracker', search: `?commit=${encodeURIComponent(this.state.settings.commit)}&options=${encodeURIComponent(this.state.settings.generatePermalink())}` }}>
                         <Button variant="primary">
                             Launch New Tracker
                         </Button>
